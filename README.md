@@ -1,6 +1,6 @@
 # Playwright API Automation Testing
 
-
+[![API Tests]([https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml)](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml))
 
 API automation testing framework built using **Playwright, TypeScript, and Cucumber BDD**.
 
@@ -19,6 +19,8 @@ The framework validates REST API operations against the **Fake REST API Books** 
 - **Git & GitHub** – Version control
 - **GitHub Actions** – CI/CD
 - **HTML Report** – Test reporting
+
+
 
 ## 🔗 API Under Test
 
@@ -41,6 +43,8 @@ Base URL:
 | GET         | Retrieve a non-existing book | Negative      |
 | PUT         | Update a non-existing book   | Negative      |
 | DELETE      | Delete a non-existing book   | Negative      |
+
+
 
 
 ## 📋 Test Scenarios
@@ -89,6 +93,8 @@ playwright-cucumber-api-testing/
 
 ```
 
+
+
 ## 🏗️ Framework Design
 
 The framework follows a reusable and maintainable structure.
@@ -104,6 +110,8 @@ Contains reusable methods for:
 - Get all books
 - Update book
 - Delete book
+
+
 
 ### Step Definitions
 
@@ -123,6 +131,8 @@ Manages:
 - Book ID
 - Response body
 - API object available to each scenario
+
+
 
 ### Feature Files
 
@@ -146,7 +156,11 @@ npx playwright install
 
 ```
 
+
+
 ## ▶️ Running Tests
+
+
 
 ### Run all API tests
 
@@ -155,12 +169,16 @@ npm test
 
 ```
 
+
+
 ### Run smoke tests
 
 ```bash
 npm run test:smoke
 
 ```
+
+
 
 ### Run negative tests
 
@@ -169,7 +187,11 @@ npm run test:negative
 
 ```
 
+
+
 ## 📊 Test Results
+
+
 
 ### Full Test Suite
 
@@ -180,6 +202,8 @@ npm run test:negative
 
 ```
 
+
+
 ### Smoke Tests
 
 ```text
@@ -188,6 +212,8 @@ npm run test:negative
 
 ```
 
+
+
 ### Negative Tests
 
 ```text
@@ -195,6 +221,8 @@ npm run test:negative
 18 steps (18 passed)
 
 ```
+
+
 
 ## 📄 Test Reporting
 
@@ -223,6 +251,8 @@ The CI pipeline:
 3. Installs project dependencies using `npm ci`
 4. Executes the complete Cucumber API test suite
 
+
+
 ### CI Status
 
 The GitHub Actions workflow is passing successfully with:
@@ -232,6 +262,8 @@ The GitHub Actions workflow is passing successfully with:
 51 steps (51 passed)
 
 ```
+
+
 
 ## 🎯 Key QA Practices Demonstrated
 
@@ -249,6 +281,8 @@ The GitHub Actions workflow is passing successfully with:
 - HTML test reporting
 - CI/CD with GitHub Actions
 - Git version control
+
+
 
 ## 👩‍💻 Author
 
