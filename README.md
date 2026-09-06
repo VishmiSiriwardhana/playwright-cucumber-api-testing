@@ -1,6 +1,6 @@
 # Playwright API Automation Testing
 
-[![API Tests]([https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml)](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml))
+[![Playwright API Tests](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/VishmiSiriwardhana/playwright-cucumber-api-testing/actions/workflows/ci.yml)
 
 API automation testing framework built using **Playwright, TypeScript, and Cucumber BDD**.
 
