@@ -1,0 +1,21 @@
+{
+  "name": "playwright-cucumber-api-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js",
+  "test:smoke": "cucumber-js --tags \"@smoke\"",
+  "test:negative": "cucumber-js --tags \"@negative\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.62.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
